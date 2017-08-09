@@ -6,12 +6,12 @@ element
 //to change value as
 element.innerHTML="Hello to my first demo";
 //to call image 
-var elementimg=document.getElementById("img");
+var eleimg=document.getElementById("img");
 var marginleft=0;
 function moveRight(){
     marginleft=marginleft+10;
-    elementimg.style.marginleft=marginleft+'px';
+    eleimg.style.marginleft=marginleft+'px';
 }
-elementimg.onclick=function(){
+eleimg.onclick=function(){
   var interval=setInterval(moveRight,100);  
 };
