@@ -3,4 +3,5 @@ console.log('Loaded!');
 var element=document.getElementById("main-text");
 //to call that element 
 element
-//to cha
+//to change value as
+element.innerHTML="Hello to my first demo";
