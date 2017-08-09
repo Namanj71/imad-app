@@ -6,10 +6,10 @@ element;
 //to change value as
 element.innerHTML="Hello to my first demo";
 //to call image 
-var img=document.getElementById("madi");
-var marginleft=0;
+var img=document.getElementById('madi');
+var marginLeft=0;
 function moveRight(){
-    marginleft=marginleft+'10px';
+    marginLeft=marginLeft+'10px';
 }
 img.onclick=function(){
   var interval=setInterval(moveRight,50);  
